@@ -1,0 +1,18 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.div_img{
+  height: 200px;
+}
+.div_img img {
+  height: auto;
+  max-width: 100%;
+}
+.container > .col-lg-12{
+  text-align: center;
+}
+.col-lg-12 span {
+  font-size: 30px;
+}
