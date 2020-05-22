@@ -3,16 +3,16 @@
   padding: 0;
   box-sizing: border-box;
 }
+.container{
+  background-color: pink;
+  border: 1px solid black;
+}
+
 .div_img{
   height: 200px;
 }
-.div_img img {
-  height: auto;
+
+img{
   max-width: 100%;
-}
-.container > .col-lg-12{
-  text-align: center;
-}
-.col-lg-12 span {
-  font-size: 30px;
+  max-height: 100%;
 }
