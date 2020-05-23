@@ -13,6 +13,7 @@
   border:1px solid black;
   background-color: pink;
   text-align: center;
+  padding: 10px;
 }
 
 [class*="col-"] h2{
@@ -23,4 +24,15 @@
 img{
   max-width: 70%;
   max-height: 70%;
+}
+
+#cont_2 img{
+  width: 50%;
+}
+#cont_3 img{
+  background-color: #256a95;
+  border-radius: 50%;
+  margin: 40px;
+
+
 }
