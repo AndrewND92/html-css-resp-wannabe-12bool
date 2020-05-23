@@ -4,15 +4,16 @@
   box-sizing: border-box;
 }
 .container{
-  background-color: pink;
-  border: 1px solid black;
+  background-color: wheat;
 }
 
 .div_img{
-  height: 200px;
+  height: 100px;
+  border:1px solid black;
+  background-color: pink;
 }
 
-img{
-  max-width: 100%;
-  max-height: 100%;
+[class*="col-"] h2{
+  font-size: 20px;
+  text-align: center;
 }
