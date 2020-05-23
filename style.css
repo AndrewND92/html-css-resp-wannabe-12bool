@@ -19,6 +19,7 @@
 [class*="col-"] h2{
   font-size: 30px;
   text-align: center;
+  padding: 20px;
 }
 
 img{
@@ -33,6 +34,8 @@ img{
   background-color: #256a95;
   border-radius: 50%;
   margin: 40px;
-
-
+}
+#cont_3 h3, p{
+  padding: 5px;
+  text-align: center;
 }
