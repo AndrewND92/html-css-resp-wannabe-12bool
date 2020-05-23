@@ -2,16 +2,17 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  font-family: 'Roboto Condensed', sans-serif;
 }
 
 .container{
-  background-color: wheat;
+  /* background-color: wheat; */
 }
 
 .div_img{
   height: 300px;
-  border:1px solid black;
-  background-color: pink;
+  /* border:1px solid black;
+  background-color: pink; */
   text-align: center;
   padding: 10px;
 }
@@ -27,8 +28,10 @@ img{
   max-height: 70%;
 }
 
+
 #cont_2 img{
-  width: 50%;
+  width: 190px;
+  margin: 10px;
 }
 #cont_3 img{
   background-color: #256a95;
@@ -38,4 +41,7 @@ img{
 #cont_3 h3, p{
   padding: 5px;
   text-align: center;
+}
+#cont_3 [class*="col-xs-12"]{
+  float: none;
 }
